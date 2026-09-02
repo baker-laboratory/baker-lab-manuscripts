@@ -1,0 +1,14 @@
+interface:
+  display_name: Baker Manuscript Matcher
+  short_description: Review and format Baker Lab manuscripts
+  default_prompt: Use $baker-lab-manuscript to audit, revise, and format my manuscript
+    for Baker Lab and my target journal.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
